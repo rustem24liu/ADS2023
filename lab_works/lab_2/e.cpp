@@ -25,7 +25,7 @@ struct LinkedList{
         }
         else{
             if(name != current->name){
-                cnt++;
+                cnt++;  
                 tail->next = newnode;
                 tail = tail->next;
                 current = current->next;

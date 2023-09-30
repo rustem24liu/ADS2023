@@ -30,7 +30,7 @@ struct LinkedList{
         }
         if(temp){
         newnode->next = temp->next;
-        temp->next = newnode;
+        temp->next = newnode;   
         }
 
         
